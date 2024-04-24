@@ -1,0 +1,16 @@
+.list_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie_list {
+    padding: 0 3rem 3rem 3rem;
+}
+
+.list_little {
+    margin: 2.5rem;
+    font-size: 1.75rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+}

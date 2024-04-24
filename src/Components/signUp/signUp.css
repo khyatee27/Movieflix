@@ -1,0 +1,26 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    top: 120px;
+
+
+}
+
+
+
+.btn2::hover,
+.btn1::hover {
+    background-color: #130749;
+}
