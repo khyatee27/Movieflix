@@ -14,7 +14,7 @@ const Cards = ({ movie }) => {
 
     return <>
         {
-            
+
                 <Link to={`movie/${movie.id}`} style={{ textDecoration: "none", color: "white" }}>
                     <div className="cards">
                         <img className="cards_img" src={`https://image.tmdb.org/t/p/original${movie ? movie.poster_path : ""}`} alt="image not found" />
